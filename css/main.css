@@ -314,15 +314,6 @@ img {
   margin-bottom: 0;
 }
 
-.social-tooter {
-  margin-bottom: 0;
-  margin-left: 70px;
-}
-.social-tooter-link {
-  fill: var(--background-heder);
-  background: rgba(255, 255, 255, 0.1);
-}
-
 .mail__input {
   display: flex;
   align-items: center;
@@ -362,7 +353,7 @@ img {
   position: relative;
   overflow: hidden;
 }
-.work-cards__link .overlay_text {
+.work-cards__link .overlay__text {
   padding: 63px 24px;
   font-weight: 400;
   font-size: 18px;
@@ -370,7 +361,7 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.work-cards__link .overlay_box {
+.work-cards__link .overlay__box {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -720,6 +711,16 @@ textarea {
 .social__link:hover, .social__link:focus {
   fill: #ffffff;
   background-color: #188ce8;
+}
+
+.social-tooter {
+  margin-bottom: 0;
+  margin-left: 70px;
+}
+
+.social-footer__link {
+  fill: var(--background-heder);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 body {
