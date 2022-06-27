@@ -2,7 +2,7 @@
   color: var(--background-heder);
   max-width: 696px;
   text-align: center;
-  font-family: var(--all-text);
+
   font-style: 400;
   font-weight: 900;
   font-size: 44px;
@@ -18,7 +18,7 @@
 
 .section-title {
   color: var(--title-text-color);
-  font-family: var(--all-text);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
@@ -31,7 +31,7 @@
 
 .team-title {
   color: var(--title-text-color);
-  font-family: var(--all-text);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -43,7 +43,6 @@
 
 .work-cards__title {
   color: var(--title-text-color);
-  font-family: var(--all-text);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -57,7 +56,6 @@
 
 .unimportant-title {
   color: var(--title-text-color);
-  font-family: var(--all-text);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -70,7 +68,6 @@
 
 .footer-title {
   color: var(--background-heder);
-  font-family: var(--all-text);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
